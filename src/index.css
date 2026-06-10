@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-iabm-green: #1a5d1a;
+  --color-iabm-yellow: #fbbd08;
+  --color-iabm-brown: #5d4037;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #fdfdf5; /* Off-white from image */
+}
+
+#root {
+  width: 100%;
+}
